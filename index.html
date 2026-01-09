@@ -1,23 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>Market Analysis Tool</title>
+  <title>Аналітика валютного ринку</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: #020617;
+      border-radius: 14px;
+      padding: 28px;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 14px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #cbd5f5;
+    }
+
+    ul {
+      text-align: left;
+      margin: 20px 0;
+      padding-left: 18px;
+      font-size: 14px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .btn {
+      display: block;
+      margin-top: 22px;
+      padding: 14px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .note {
+      font-size: 12px;
+      color: #94a3b8;
+      margin-top: 14px;
+    }
+  </style>
 </head>
-<body style="background:#0f172a;color:white;font-family:Arial;text-align:center;padding-top:80px">
 
-<h1>Telegram Market Analysis Tool</h1>
-<p>Simple tool for short-term market analysis</p>
+<body>
+  <div class="card">
+    <h1>Telegram-інструмент для аналізу ринку</h1>
 
-<a href="https://t.me/Hot_signal_bot"
-   style="display:inline-block;margin-top:30px;padding:15px 25px;
-          background:#2563eb;color:white;text-decoration:none;border-radius:8px">
-Open in Telegram
-</a>
+    <p>
+      Простий бот у Telegram для аналізу короткострокових
+      рухів валютного ринку на основі технічних індикаторів.
+    </p>
 
-<p style="margin-top:40px;font-size:12px;color:#94a3b8">
-⚠️ Not financial advice
-</p>
+    <ul>
+      <li>📊 Технічні індикатори</li>
+      <li>⏱ Короткі таймфрейми</li>
+      <li>🌍 Валютні пари (OTC / Forex)</li>
+    </ul>
 
+    <a class="btn" href="https://t.me/Hot_signal_bot">
+      Відкрити в Telegram
+    </a>
+
+    <div class="note">
+      ⚠️ Не є фінансовою порадою. Без гарантій.
+    </div>
+  </div>
 </body>
 </html>
